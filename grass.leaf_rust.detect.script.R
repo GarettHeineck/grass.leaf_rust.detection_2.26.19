@@ -302,7 +302,7 @@ for (i in 1:length(paths_cropped_leaf)) {
   img.stats_leaf.demo_2.26.19<-rbind(img.stats_leaf.demo_2.26.19, write.stats) 
 }
 #writing the output statistics to the parent directory folder***
-write.csv(img.stats_leaf.demo_2.26.19, paste("results","img.stats_leaf.demo_2.26.19.csv", sep = "/"))
+write.csv(img.stats_leaf.demo_2.26.19, paste(img_dir_leaf.demo.2.26.19, "results","img.stats_leaf.demo_2.26.19.csv", sep = "/"))
 ##############
 ##############
 ##############
